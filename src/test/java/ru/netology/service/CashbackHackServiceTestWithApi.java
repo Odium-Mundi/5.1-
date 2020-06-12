@@ -27,11 +27,7 @@ public class CashbackHackServiceTestWithApi {
     public void shouldReturn999IfExists1001() {
         Assertions.assertEquals(999, service.remain(1001));
     }
-
-    @Test
-    public void shouldReturn1002() {
-        Assertions.assertEquals(1002, service.remain(-2));
-    }
+    
 
     @Test
     public void shouldReturn500() {
